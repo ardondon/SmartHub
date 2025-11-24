@@ -113,7 +113,7 @@ dependencies {
     // implementation("com.tencent.iot.explorer:explorer-device-android:...")
 
     // JSON
-    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.google.code.gson:gson:2.13.2")
 
     // Logging
     implementation("com.jakewharton.timber:timber:5.0.1")
