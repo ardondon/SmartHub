@@ -99,8 +99,8 @@ dependencies {
 
     // Network
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
     
     // MQTT (Eclipse Paho)
     implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
