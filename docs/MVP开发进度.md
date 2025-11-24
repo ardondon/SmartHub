@@ -35,6 +35,8 @@ UI实现:      ██████░░░░░░░░░░░░░░  30%
 
 ### ✅ 已完成
 
+### ✅ 已完成
+
 - [x] **Gradle配置** (2025-11-24)
   - [x] `settings.gradle.kts` - 项目配置（含国内镜像）
   - [x] `build.gradle.kts` - 根级构建文件
@@ -61,18 +63,21 @@ UI实现:      ██████░░░░░░░░░░░░░░  30%
   - [x] `Type.kt` - Typography配置
   - [x] 资源文件（strings.xml, themes.xml等）
 
+- [x] **数据层** (2025-11-24)
+  - [x] `Device.kt` - 领域模型
+  - [x] `DeviceEntity.kt` - Room实体
+  - [x] `DeviceDao.kt` - 数据访问接口
+  - [x] `SmartHubDatabase.kt` - 数据库配置
+  - [x] `DeviceRepository.kt` - 仓库接口
+  - [x] `DeviceRepositoryImpl.kt` - 仓库实现
+  - [x] `DatabaseModule.kt` - Hilt数据库模块
+  - [x] `RepositoryModule.kt` - Hilt仓库模块
+  - [x] UseCases (GetDevices, SaveDevice, etc.)
+
 - [x] **项目同步成功** (2025-11-24 15:25) 🎉
   - [x] Gradle同步成功（BUILD SUCCESSFUL in 4m 20s）
   - [x] 所有依赖下载完成
   - [x] 项目可运行
-
-### 🔄 进行中
-
-- [ ] **数据层**
-  - [ ] Device实体类
-  - [ ] DeviceDao接口
-  - [ ] AppDatabase配置
-  - [ ] DeviceRepository接口
 
 - [ ] **UI基础**
   - [ ] Material 3主题配置
