@@ -1,0 +1,11 @@
+<resources>
+    <!-- 
+        使用最基础的主题，因为我们使用 Jetpack Compose
+        所有 UI 样式都在 Compose 的 Theme.kt 中定义
+    -->
+    <style name="Theme.SmartHub" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- 启用边到边显示 -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>
